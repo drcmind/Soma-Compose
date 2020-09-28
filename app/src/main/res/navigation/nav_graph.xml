@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/fragment_bienvenue">
+    <fragment
+        android:id="@+id/fragment_accueil"
+        android:name="com.example.somacompose.partie03.fragments.FragmentAccueil"
+        android:label="Accueil" />
+    <fragment
+        android:id="@+id/fragment_bienvenue"
+        android:name="com.example.somacompose.partie03.fragments.FragmentBienvenue"
+        android:label="Bienvenue" />
+    <fragment
+        android:id="@+id/fragment_inscription"
+        android:name="com.example.somacompose.partie03.fragments.FragmentInscription"
+        android:label="Inscription" />
+    <fragment
+        android:id="@+id/fragment_connexion"
+        android:name="com.example.somacompose.partie03.fragments.FragmentConnexion"
+        android:label="Connexion" />
+
+</navigation>
